@@ -2,10 +2,8 @@
     .h-sm-100 {
         height: 100%;
     }
-}
-
-@media (min-width: 576px){
-    #DropdwonHamburger{
-        display: block;
+    #DropdownHamburger{
+        visibility: hidden;
+        display: none;
     }
 }
