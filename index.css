@@ -7,3 +7,70 @@
         display: none;
     }
 }
+
+.Inline{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.customNav{
+    background-color: #c48520;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.secondaryBackground{
+    background-color: #E5E5E5
+}
+
+.mainHeader{
+    color: #FCA311;
+}
+
+.customParagraph{
+    font-size: 14pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.customParagraphStart{
+    font-family:'Courier New', Courier, monospace
+}
+
+.main{
+    display: block;
+    height: 100%;
+}
+
+.Section{
+    height: 100vh;
+    padding-left: 10pt;
+
+}
+
+.Start{
+
+}
+
+.About{
+
+}
+
+.Experience{
+    
+}
+
+.Education{
+    
+}
+
+.Skills{
+    
+}
+
+.Interests{
+    
+}
+
+.SocialMedia{
+    
+}
