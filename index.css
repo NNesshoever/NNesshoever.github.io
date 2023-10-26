@@ -27,6 +27,10 @@
     color: #FCA311;
 }
 
+.secondaryHeader{
+    color: #ffb43b;
+}
+
 .responsivePic{
     max-height: 200px;
     width: auto;
@@ -36,7 +40,8 @@
 
 .customParagraph{
     font-size: 14pt;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
 }
 
 .customParagraphStart{
@@ -47,17 +52,29 @@
     display: block;
 }
 
+.CustomLinks{
+    text-decoration: underline;
+    color:grey;
+}
+
+a:hover{
+    color: #14213D;
+    text-decoration: none;
+}
+
 .Section{
     min-height: 100vh;
     padding-left: 10pt;
+    padding-right: 10pt;
     margin-bottom: 10pt;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 .Start{
     position: relative;
+    padding: 0;
+    text-align: center;
 }
 
 .StartContent{
@@ -77,6 +94,9 @@
 }
 
 .Education{
+    h1{
+        text-align: center;
+    }
     
 }
 
