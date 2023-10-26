@@ -89,8 +89,14 @@ a:hover{
 
 }
 
+.centeredHeader{
+    text-align: center;
+}
+
 .Experience{
-    
+    h1{
+        text-align: center;
+    }
 }
 
 .Education{
