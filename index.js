@@ -2,7 +2,7 @@ window.addEventListener("resize", HideDropdown)
 window.onload = HideDropdown
 window.onload = Type
 
-let words = "Hello, i am Niclas Neßhöver Junior Developer"
+let words = "Hi, i am Niclas Neßhöver Junior Developer"
 let speed = 75;
 let FirstSentence = document.getElementById("StartSentence")
 let JobTitle = document.getElementById("JobTitle")
@@ -28,10 +28,10 @@ function Type(){
 
 function typeWriter() {
     if(i < words.length) {
-        if(i <= 11){
+        if(i <= 8){
             FirstSentence.innerHTML += words.charAt(i)
         }
-        else if(i > 11 && i<=27){
+        else if(i > 8 && i<=24){
             MyName.innerHTML += words.charAt(i)
         }
         else{
