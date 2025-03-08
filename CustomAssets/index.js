@@ -2,7 +2,7 @@ window.addEventListener("resize", HideDropdown)
 window.onload = HideDropdown
 window.onload = Type
 
-let words = "Hi, i am Niclas Neßhöver Junior Developer"
+let words = "Hi, i am Niclas Neßhöver Developer"
 let speed = 75;
 let FirstSentence = document.getElementById("StartSentence")
 let JobTitle = document.getElementById("JobTitle")
